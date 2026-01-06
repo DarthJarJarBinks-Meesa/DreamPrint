@@ -1,0 +1,116 @@
+Build a complete, working nonprofit website for “DreamPrint Initiative”.
+
+GOAL
+Create a modern, trustworthy, warm nonprofit site that clearly explains:
+1) WHY DreamPrint exists (historical context and policies behind today’s education inequities)
+2) WHAT we do now (our current program model + curriculum)
+3) Projects gallery (3D-printed project inspiration with images and proper credit to Thingiverse)
+4) Contact page (form + info)
+
+TECH STACK (required)
+- Next.js (App Router) + TypeScript
+- Tailwind CSS
+- shadcn/ui components
+- lucide-react icons
+- framer-motion for subtle animations
+- Responsive + accessible (semantic HTML, keyboard-friendly, good contrast)
+- No broken imports; must run with `npm install` then `npm run dev`
+
+SITE STRUCTURE / ROUTES (must implement)
+- / (Home)
+- /why (Why DreamPrint)
+- /what-we-do (What We Do)
+- /projects (Printed Projects)
+- /contact (Contact)
+- Also include: /privacy (simple), /404
+
+NAV + FOOTER
+Top sticky navbar with links to Home, Why, What We Do, Projects, Contact.
+Footer includes mission one-liner, quick links, and social placeholders.
+
+BRAND / DESIGN
+- Style: warm, credible, modern nonprofit
+- Colors: primary = deep blue; accent = gold; neutrals = slate/white (use Tailwind defaults, do not hardcode custom palettes)
+- Typography: clean and readable; generous spacing; professional
+- Add subtle motion (fade/slide) as sections enter
+
+CONTENT MANAGEMENT (important)
+Centralize all editable text in `src/content/siteContent.ts` (or similar).
+Use reusable components: Hero, SectionHeading, FeatureGrid, StatsRow, Timeline, FAQ, CTA, TestimonialCard (even if testimonials are placeholders), ImageCard.
+
+HOME PAGE (/)
+Hero:
+- Headline: “DreamPrint turns imagination into opportunity.”
+- Subheadline: “We partner with underserved elementary students and families to bring career dreams to life through hands-on 3D design and 3D-printed models—supported by Northwestern University volunteers.”
+- CTAs: “See What We Do” and “Get Involved”
+
+Sections:
+1) “Why this matters” (2–3 concise bullets + link to /why)
+2) “What we do” (feature cards: mentorship, 3D design curriculum, teamwork, career exploration)
+3) “How it works” (simple 4-step process)
+4) Impact placeholder (stats row with placeholders: students served, schools partnered, volunteers, prints delivered)
+5) Projects preview grid (link to /projects)
+6) FAQ (4–6 Qs)
+7) Final CTA: “Partner with us” + “Volunteer”
+
+WHY PAGE (/why)
+Purpose: explain historical context behind educational inequities in a clear, respectful, non-inflammatory way.
+Include:
+- A short intro explaining that today’s gaps are rooted in policy, not “individual effort.”
+- A timeline section (use a vertical Timeline component) covering:
+  - Redlining and housing segregation shaping school funding and neighborhood resources
+  - Disinvestment patterns and unequal access to enrichment
+  - The lasting effects on school budgets, extracurricular exposure, and networks
+Important: keep claims general and widely accepted; avoid citing specific numbers unless provided.
+End with “Why DreamPrint is a direct response” (connect inequities → lack of exposure/tools → DreamPrint provides access, mentorship, tangible learning).
+
+WHAT WE DO PAGE (/what-we-do)
+Explain DreamPrint’s current program:
+- We provide 3D-printed models of students’ career aspirations
+- We run a beginner-friendly 3D design curriculum (Tinkercad-style) and teamwork-based projects
+- We partner with local schools and organizations (mention Books&Breakfast as a community partner)
+- We serve 250+ students and siblings, organizing participants into small teams based on age and design interests to foster collaboration, mentorship, and shared purpose.
+Curriculum section must include concrete examples:
+- manipulating/combining basic shapes
+- personalized items (name tags, keychains)
+- household tools (phone stand, pencil holder)
+- team projects + small friendly competitions
+Also include:
+- “Volunteer roles” (design mentors, print support, classroom helpers)
+- “Partnerships” (schools, nonprofits)
+- CTA buttons: “Contact us” and “Donate/Support” (donate can be placeholder link)
+
+PROJECTS PAGE (/projects)
+Create a gallery of “inspiration projects” with images.
+Important requirement: include a clear credit + disclaimer:
+- Header disclaimer: “Project images and models shown here are credited to their original creators on Thingiverse. DreamPrint does not claim ownership. Links provided for attribution.”
+Implementation:
+- Create a local data array of 12–18 projects in `siteContent.ts` with fields:
+  - title
+  - description (1 sentence)
+  - creatorName
+  - sourceName = “Thingiverse”
+  - sourceUrl (placeholder if not known)
+  - imageUrl (use local placeholder images in /public/projects/ OR use generic placeholder images)
+- Do NOT scrape Thingiverse.
+- Provide a clean grid with filter chips (e.g., “Tools”, “STEM”, “Art”, “Everyday”, “Accessibility”).
+- Clicking a project opens a modal or detail panel with full attribution and a “View on Thingiverse” button.
+
+CONTACT PAGE (/contact)
+- Provide a working contact form with validation (name, email, subject, message).
+- Form submission can be a client-side “success” toast + console log (no backend required).
+- Include placeholders for:
+  - email (info@dreamprint.org placeholder)
+  - location (Evanston, IL)
+  - Instagram/LinkedIn placeholders
+- Add a “Partner with DreamPrint” section with checkboxes (School, Nonprofit, Volunteer, Sponsor).
+
+SEO + POLISH
+- Add metadata (title/description) per page.
+- Add OpenGraph defaults.
+- Add smooth scrolling where relevant.
+- Add loading/empty states for Projects filter.
+- Add a simple Privacy page (/privacy) describing what data the contact form collects.
+
+DELIVERABLE
+Generate all code in the Replit workspace. Ensure it runs immediately. Avoid TODOs that break execution.
