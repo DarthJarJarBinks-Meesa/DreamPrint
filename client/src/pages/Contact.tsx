@@ -152,7 +152,7 @@ export default function Contact() {
                   />
                   
                   <div className="pt-2">
-                    <FormLabel className="block mb-3">I'm interested in (optional):</FormLabel>
+                    <label className="block mb-3 text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">I'm interested in (optional):</label>
                     <div className="grid grid-cols-2 gap-3">
                       {['Volunteering', 'School Partnership', 'Sponsorship', 'Other'].map((item) => (
                         <div key={item} className="flex items-center space-x-2">
