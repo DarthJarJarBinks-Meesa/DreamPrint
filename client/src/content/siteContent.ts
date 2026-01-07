@@ -2,6 +2,10 @@ import heroImage from '@assets/generated_images/diverse_students_collaborating_o
 import pencilHolder from '@assets/generated_images/3d_printed_geometric_pencil_holder.png';
 import keychain from '@assets/generated_images/3d_printed_custom_keychain.png';
 import phoneStand from '@assets/generated_images/3d_printed_phone_stand.png';
+import placeholder1 from '@assets/generated_images/3d_print_abstract_placeholder_1.png';
+import placeholder2 from '@assets/generated_images/3d_print_abstract_placeholder_2.png';
+import placeholder3 from '@assets/generated_images/3d_print_abstract_placeholder_3.png';
+import placeholder4 from '@assets/generated_images/3d_print_abstract_placeholder_4.png';
 
 export const siteContent = {
   hero: {
@@ -99,7 +103,7 @@ export const siteContent = {
       creatorName: "AccessDesign",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Bottle+Opener", // Placeholder
+      imageUrl: placeholder1,
       category: "Accessibility"
     },
     {
@@ -109,7 +113,7 @@ export const siteContent = {
       creatorName: "EngTeacher",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Bridge+Truss",
+      imageUrl: placeholder2,
       category: "STEM"
     },
     {
@@ -119,7 +123,7 @@ export const siteContent = {
       creatorName: "GearHead",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Gears",
+      imageUrl: placeholder3,
       category: "STEM"
     },
     {
@@ -129,7 +133,7 @@ export const siteContent = {
       creatorName: "InclusiveMaker",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Braille+Tiles",
+      imageUrl: placeholder4,
       category: "Accessibility"
     },
     {
@@ -139,7 +143,7 @@ export const siteContent = {
       creatorName: "MathWhiz",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Fractions",
+      imageUrl: placeholder1,
       category: "STEM"
     },
     {
@@ -149,7 +153,7 @@ export const siteContent = {
       creatorName: "WorkSpacePro",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Tablet+Stand",
+      imageUrl: placeholder2,
       category: "Tools"
     },
     {
@@ -159,7 +163,7 @@ export const siteContent = {
       creatorName: "GreenThumb3D",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Planter",
+      imageUrl: placeholder3,
       category: "Everyday"
     },
     {
@@ -169,7 +173,7 @@ export const siteContent = {
       creatorName: "CleanDesk",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Organizer",
+      imageUrl: placeholder4,
       category: "Everyday"
     },
     {
@@ -179,7 +183,7 @@ export const siteContent = {
       creatorName: "BioPrint",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Cell+Model",
+      imageUrl: placeholder1,
       category: "STEM"
     },
     {
@@ -189,7 +193,7 @@ export const siteContent = {
       creatorName: "EasyAccess",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Jar+Opener",
+      imageUrl: placeholder2,
       category: "Accessibility"
     },
     {
@@ -199,7 +203,7 @@ export const siteContent = {
       creatorName: "PolyArtist",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Low+Poly",
+      imageUrl: placeholder3,
       category: "Art"
     },
     {
@@ -209,7 +213,7 @@ export const siteContent = {
       creatorName: "HomeMaker",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Spoons",
+      imageUrl: placeholder4,
       category: "Everyday"
     },
     {
@@ -219,7 +223,7 @@ export const siteContent = {
       creatorName: "SpaceCadet",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Solar+System",
+      imageUrl: placeholder1,
       category: "STEM"
     },
     {
@@ -229,7 +233,7 @@ export const siteContent = {
       creatorName: "SignBridge",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=ASL+Rings",
+      imageUrl: placeholder2,
       category: "Accessibility"
     },
     {
@@ -239,7 +243,7 @@ export const siteContent = {
       creatorName: "CycleStorage",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Bike+Hook",
+      imageUrl: placeholder3,
       category: "Tools"
     },
     {
@@ -249,7 +253,7 @@ export const siteContent = {
       creatorName: "MotionArt",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Kinetic",
+      imageUrl: placeholder4,
       category: "Art"
     },
     {
@@ -259,7 +263,7 @@ export const siteContent = {
       creatorName: "TechTidy",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Cable+Clips",
+      imageUrl: placeholder1,
       category: "Everyday"
     },
     {
@@ -269,7 +273,7 @@ export const siteContent = {
       creatorName: "ChemTeacher",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Chemistry",
+      imageUrl: placeholder2,
       category: "STEM"
     },
     {
@@ -279,7 +283,7 @@ export const siteContent = {
       creatorName: "CarePrint",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Handle+Extender",
+      imageUrl: placeholder3,
       category: "Accessibility"
     },
     {
@@ -289,7 +293,7 @@ export const siteContent = {
       creatorName: "FocusPrints",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Fidget",
+      imageUrl: placeholder4,
       category: "Everyday"
     },
     {
@@ -299,7 +303,7 @@ export const siteContent = {
       creatorName: "OrganicDesigner",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Voronoi",
+      imageUrl: placeholder1,
       category: "Art"
     },
     {
@@ -309,7 +313,7 @@ export const siteContent = {
       creatorName: "ErgoPrints",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Laptop+Riser",
+      imageUrl: placeholder2,
       category: "Tools"
     },
     {
@@ -319,7 +323,7 @@ export const siteContent = {
       creatorName: "ArtPack",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Pencil+Case",
+      imageUrl: placeholder3,
       category: "Everyday"
     },
     {
@@ -329,7 +333,7 @@ export const siteContent = {
       creatorName: "EcoEngineer",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Wind+Turbine",
+      imageUrl: placeholder4,
       category: "STEM"
     },
     {
@@ -339,7 +343,7 @@ export const siteContent = {
       creatorName: "HomeAssist",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Key+Turner",
+      imageUrl: placeholder1,
       category: "Accessibility"
     },
     {
@@ -349,7 +353,7 @@ export const siteContent = {
       creatorName: "PhotoMaker",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Lithophane",
+      imageUrl: placeholder2,
       category: "Art"
     },
     {
@@ -359,7 +363,7 @@ export const siteContent = {
       creatorName: "StudioSetup",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Headphone+Hook",
+      imageUrl: placeholder3,
       category: "Tools"
     },
     {
@@ -369,7 +373,7 @@ export const siteContent = {
       creatorName: "GeneticsLab",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=DNA+Model",
+      imageUrl: placeholder4,
       category: "STEM"
     },
     {
@@ -379,7 +383,7 @@ export const siteContent = {
       creatorName: "GameAccess",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Braille+Dice",
+      imageUrl: placeholder1,
       category: "Accessibility"
     },
     {
@@ -389,7 +393,7 @@ export const siteContent = {
       creatorName: "GamerPrints",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Controller+Stand",
+      imageUrl: placeholder2,
       category: "Everyday"
     },
     {
@@ -399,7 +403,7 @@ export const siteContent = {
       creatorName: "LightDesign",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Geodesic",
+      imageUrl: placeholder3,
       category: "Art"
     },
     {
@@ -409,7 +413,7 @@ export const siteContent = {
       creatorName: "ShopTools",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Tool+Tray",
+      imageUrl: placeholder4,
       category: "Tools"
     },
     {
@@ -419,7 +423,7 @@ export const siteContent = {
       creatorName: "SchoolPrint",
       sourceName: "Thingiverse",
       sourceUrl: "https://www.thingiverse.com",
-      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Geometry",
+      imageUrl: placeholder1,
       category: "STEM"
     }
   ],

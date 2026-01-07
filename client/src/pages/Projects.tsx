@@ -16,6 +16,8 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
+
 export default function Projects() {
   const [filter, setFilter] = useState("All");
   const categories = ["All", ...Array.from(new Set(siteContent.projects.map(p => p.category)))];
@@ -74,10 +76,11 @@ export default function Projects() {
                     <DialogTrigger asChild>
                       <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all cursor-pointer group border border-slate-100">
                         <div className="aspect-[4/3] overflow-hidden relative">
-                          <img 
+                          <ImageWithFallback 
                             src={project.imageUrl} 
                             alt={project.title} 
                             loading="lazy"
+                            fallbackTitle={project.title}
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                           />
                           <div className="absolute top-2 right-2 bg-black/60 text-white text-xs px-2 py-1 rounded backdrop-blur-sm">
@@ -103,9 +106,10 @@ export default function Projects() {
                       
                       <div className="grid md:grid-cols-2 gap-6 mt-4">
                         <div className="aspect-square rounded-lg overflow-hidden bg-slate-100">
-                          <img 
+                          <ImageWithFallback 
                             src={project.imageUrl} 
                             alt={project.title} 
+                            fallbackTitle={project.title}
                             className="w-full h-full object-cover"
                           />
                         </div>
@@ -150,3 +154,4 @@ export default function Projects() {
     </div>
   );
 }
+
