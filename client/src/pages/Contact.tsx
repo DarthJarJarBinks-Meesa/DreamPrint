@@ -76,8 +76,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-bold text-slate-800">Location</h4>
-                      <p className="text-slate-600">Evanston, IL</p>
-                      <p className="text-slate-500 text-sm mt-1">Serving District 65 Schools</p>
+                      <p className="text-slate-600">Chicago and the Greater Chicago area</p>
+                      <p className="text-slate-500 text-sm mt-1">Serving students and families across the region</p>
                     </div>
                   </div>
                 </div>

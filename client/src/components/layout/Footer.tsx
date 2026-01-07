@@ -48,7 +48,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-slate-300 text-sm">
                 <MapPin className="w-5 h-5 text-secondary shrink-0" />
-                <span>Evanston, IL</span>
+                <span>Chicago, IL</span>
               </li>
               <li className="flex items-center gap-3 text-slate-300 text-sm">
                 <Mail className="w-5 h-5 text-secondary shrink-0" />

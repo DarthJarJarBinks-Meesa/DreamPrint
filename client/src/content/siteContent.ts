@@ -428,7 +428,7 @@ export const siteContent = {
     }
   ],
   faqs: [
-    { question: "Who can participate?", answer: "Our programs are currently open to elementary students in our partner school districts in Evanston, IL." },
+    { question: "Who can participate?", answer: "Our programs are currently open to elementary students in Chicago and the Greater Chicago area." },
     { question: "Do I need a 3D printer?", answer: "No! We provide all the printing services. Students just need access to a computer or tablet for design." },
     { question: "Is it free?", answer: "Yes, all our programs and materials are 100% free for participating families." },
     { question: "How can I volunteer?", answer: "We accept Northwestern University students for mentor roles and community members for logistical support." }
