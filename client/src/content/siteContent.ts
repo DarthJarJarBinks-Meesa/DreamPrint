@@ -121,6 +121,306 @@ export const siteContent = {
       sourceUrl: "https://www.thingiverse.com",
       imageUrl: "https://placehold.co/600x600/222222/FFF?text=Gears",
       category: "STEM"
+    },
+    {
+      id: 7,
+      title: "Braille Learning Tile Set",
+      description: "Tactile tiles designed to help students learn the Braille alphabet through touch.",
+      creatorName: "InclusiveMaker",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Braille+Tiles",
+      category: "Accessibility"
+    },
+    {
+      id: 8,
+      title: "Fraction Circle Kit",
+      description: "Visual aid for understanding parts of a whole, perfect for elementary math.",
+      creatorName: "MathWhiz",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Fractions",
+      category: "STEM"
+    },
+    {
+      id: 9,
+      title: "Adjustable Tablet Stand",
+      description: "Versatile stand for tablets used during 3D design sessions.",
+      creatorName: "WorkSpacePro",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Tablet+Stand",
+      category: "Tools"
+    },
+    {
+      id: 10,
+      title: "Self-Watering Planter",
+      description: "A dual-container system that keeps plants hydrated using wicking action.",
+      creatorName: "GreenThumb3D",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Planter",
+      category: "Everyday"
+    },
+    {
+      id: 11,
+      title: "Modular Desk Organizer",
+      description: "Interlocking bins for sorting stationery and design tools.",
+      creatorName: "CleanDesk",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Organizer",
+      category: "Everyday"
+    },
+    {
+      id: 12,
+      title: "Human Cell Anatomy Model",
+      description: "Cross-section of a cell with labeled organelles for biology class.",
+      creatorName: "BioPrint",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Cell+Model",
+      category: "STEM"
+    },
+    {
+      id: 13,
+      title: "One-Handed Jar Opener",
+      description: "Mountable wedge tool to help open jars with minimal effort.",
+      creatorName: "EasyAccess",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Jar+Opener",
+      category: "Accessibility"
+    },
+    {
+      id: 14,
+      title: "Low-Poly Animal Statues",
+      description: "Artistic minimalist animal figures exploring geometric simplification.",
+      creatorName: "PolyArtist",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Low+Poly",
+      category: "Art"
+    },
+    {
+      id: 15,
+      title: "Stackable Measurement Spoons",
+      description: "Accurate kitchen tools designed for compact storage.",
+      creatorName: "HomeMaker",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Spoons",
+      category: "Everyday"
+    },
+    {
+      id: 16,
+      title: "Solar System Scale Model",
+      description: "Miniature planets with proportional sizes for classroom displays.",
+      creatorName: "SpaceCadet",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Solar+System",
+      category: "STEM"
+    },
+    {
+      id: 17,
+      title: "Sign Language Alphabet Rings",
+      description: "Wearable rings featuring letters in American Sign Language.",
+      creatorName: "SignBridge",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=ASL+Rings",
+      category: "Accessibility"
+    },
+    {
+      id: 18,
+      title: "Wall-Mounted Bike Hook",
+      description: "Heavy-duty printed bracket for vertical bicycle storage.",
+      creatorName: "CycleStorage",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Bike+Hook",
+      category: "Tools"
+    },
+    {
+      id: 19,
+      title: "Abstract Kinetic Sculpture",
+      description: "Balanced moving parts that explore physics and artistic form.",
+      creatorName: "MotionArt",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Kinetic",
+      category: "Art"
+    },
+    {
+      id: 20,
+      title: "Cable Management Clips",
+      description: "Simple adhesive-friendly clips to organize messy charging cords.",
+      creatorName: "TechTidy",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Cable+Clips",
+      category: "Everyday"
+    },
+    {
+      id: 21,
+      title: "Periodic Table Cubes",
+      description: "Individual cubes for each element with engraved atomic data.",
+      creatorName: "ChemTeacher",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Chemistry",
+      category: "STEM"
+    },
+    {
+      id: 22,
+      title: "Universal Handle Extender",
+      description: "Tool to make small knobs and handles easier to grip for seniors.",
+      creatorName: "CarePrint",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Handle+Extender",
+      category: "Accessibility"
+    },
+    {
+      id: 23,
+      title: "Desktop Fidget Spinner",
+      description: "Customizable bearing-based toy for focus and stress relief.",
+      creatorName: "FocusPrints",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Fidget",
+      category: "Everyday"
+    },
+    {
+      id: 24,
+      title: "Voronoi Pattern Vase",
+      description: "Ornate decorative vase utilizing complex organic patterns.",
+      creatorName: "OrganicDesigner",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Voronoi",
+      category: "Art"
+    },
+    {
+      id: 25,
+      title: "Laptop Stand Risers",
+      description: "Ergonomic clips to elevate laptops for better airflow and posture.",
+      creatorName: "ErgoPrints",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Laptop+Riser",
+      category: "Tools"
+    },
+    {
+      id: 26,
+      title: "Telescoping Pencil Case",
+      description: "Expandable container that fits different lengths of art supplies.",
+      creatorName: "ArtPack",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Pencil+Case",
+      category: "Everyday"
+    },
+    {
+      id: 27,
+      title: "Wind Turbine Model",
+      description: "Functional assembly showing how wind energy is captured.",
+      creatorName: "EcoEngineer",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Wind+Turbine",
+      category: "STEM"
+    },
+    {
+      id: 28,
+      title: "Adaptive Key Turner",
+      description: "Leveled grip to make turning keys in locks significantly easier.",
+      creatorName: "HomeAssist",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Key+Turner",
+      category: "Accessibility"
+    },
+    {
+      id: 29,
+      title: "Lithophane Picture Frame",
+      description: "Backlit frame designed to hold 3D-printed light-based photos.",
+      creatorName: "PhotoMaker",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Lithophane",
+      category: "Art"
+    },
+    {
+      id: 30,
+      title: "Headphone Hanger",
+      description: "Under-desk mount to keep workspace clean and organized.",
+      creatorName: "StudioSetup",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Headphone+Hook",
+      category: "Tools"
+    },
+    {
+      id: 31,
+      title: "DNA Double Helix Model",
+      description: "Color-coded bases for teaching genetics and molecular biology.",
+      creatorName: "GeneticsLab",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=DNA+Model",
+      category: "STEM"
+    },
+    {
+      id: 32,
+      title: "Braille Dice Set",
+      description: "Standard 6-sided dice with tactile numbering for accessible gaming.",
+      creatorName: "GameAccess",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Braille+Dice",
+      category: "Accessibility"
+    },
+    {
+      id: 33,
+      title: "Wall Mount Controller Stand",
+      description: "Minimalist cradle for storing gaming controllers on the wall.",
+      creatorName: "GamerPrints",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Controller+Stand",
+      category: "Everyday"
+    },
+    {
+      id: 34,
+      title: "Geodesic Sphere Lamp",
+      description: "Intricate geometric lampshade that creates beautiful shadows.",
+      creatorName: "LightDesign",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Geodesic",
+      category: "Art"
+    },
+    {
+      id: 35,
+      title: "Socket Wrench Organizer",
+      description: "Custom labeled tray to keep various tool sizes sorted.",
+      creatorName: "ShopTools",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Tool+Tray",
+      category: "Tools"
+    },
+    {
+      id: 36,
+      title: "Compass and Protractor Set",
+      description: "Functional geometry tools designed for durability in classrooms.",
+      creatorName: "SchoolPrint",
+      sourceName: "Thingiverse",
+      sourceUrl: "https://www.thingiverse.com",
+      imageUrl: "https://placehold.co/600x600/222222/FFF?text=Geometry",
+      category: "STEM"
     }
   ],
   faqs: [

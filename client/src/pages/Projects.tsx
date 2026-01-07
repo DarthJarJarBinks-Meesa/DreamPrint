@@ -77,6 +77,7 @@ export default function Projects() {
                           <img 
                             src={project.imageUrl} 
                             alt={project.title} 
+                            loading="lazy"
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                           />
                           <div className="absolute top-2 right-2 bg-black/60 text-white text-xs px-2 py-1 rounded backdrop-blur-sm">
