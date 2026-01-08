@@ -9,7 +9,7 @@ import placeholder4 from '@assets/generated_images/3d_print_abstract_placeholder
 
 export const siteContent = {
   hero: {
-    headline: "DreamPrint turns imagination into opportunity.",
+    headline: "\n\n\nDreamPrint turns imagination into opportunity.",
     subheadline: "We partner with underserved elementary students and families to bring career dreams to life through hands-on 3D design and 3D-printed models—supported by Northwestern University volunteers.",
     image: heroImage,
     ctaPrimary: "See What We Do",

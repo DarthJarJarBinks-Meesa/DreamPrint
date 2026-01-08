@@ -37,7 +37,7 @@ export function Navbar() {
             </div>
             <span className={cn(
               "font-serif font-bold text-xl tracking-tight transition-colors",
-              scrolled || isOpen ? "text-primary" : "text-white"
+              scrolled || isOpen || location !== "/" ? "text-primary" : "text-white"
             )}>
               DreamPrint
             </span>
@@ -50,7 +50,7 @@ export function Navbar() {
                 "text-sm font-medium transition-colors hover:text-secondary cursor-pointer",
                 location === link.href 
                   ? "text-secondary font-semibold" 
-                  : (scrolled ? "text-foreground" : "text-white/90")
+                  : (scrolled || location !== "/" ? "text-primary" : "text-white/90")
               )}>
                 {link.label}
             </Link>
@@ -60,7 +60,7 @@ export function Navbar() {
             size="sm" 
             className={cn(
               "font-semibold cursor-pointer",
-              scrolled 
+              scrolled || location !== "/"
                 ? "bg-primary text-white hover:bg-primary/90" 
                 : "bg-white text-primary hover:bg-white/90"
             )}
@@ -75,9 +75,9 @@ export function Navbar() {
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
-            <X className={scrolled ? "text-foreground" : "text-white"} />
+            <X className={scrolled || location !== "/" ? "text-foreground" : "text-white"} />
           ) : (
-            <Menu className={scrolled ? "text-foreground" : "text-white"} />
+            <Menu className={scrolled || location !== "/" ? "text-foreground" : "text-white"} />
           )}
         </button>
       </div>
