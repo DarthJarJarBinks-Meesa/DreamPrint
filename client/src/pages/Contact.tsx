@@ -20,6 +20,13 @@ const formSchema = z.object({
   partnerships: z.array(z.string()).optional(),
 });
 
+// ✅ ADD THIS helper right here (below formSchema, above Contact())
+function encode(data: Record<string, any>) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
+
 export default function Contact() {
   const { toast } = useToast();
   const form = useForm<z.infer<typeof formSchema>>({
@@ -33,13 +40,29 @@ export default function Contact() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast({
-      title: "Message Sent!",
-      description: "Thanks for reaching out. We'll get back to you soon.",
-    });
-    form.reset();
+  // ✅ REPLACE your onSubmit with this version
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    try {
+      await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({
+          "form-name": "contact",
+          ...values,
+        }),
+      });
+
+      toast({
+        title: "Message Sent!",
+        description: "Thanks for reaching out. We'll get back to you soon.",
+      });
+      form.reset();
+    } catch (e) {
+      toast({
+        title: "Something went wrong",
+        description: "Please try again, or email us at info@dreamprint.org.",
+      });
+    }
   }
 
   return (
@@ -94,7 +117,17 @@ export default function Contact() {
             {/* Form */}
             <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
               <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                {/* ✅ REPLACE the opening <form ...> with this */}
+                <form
+                  name="contact"
+                  method="POST"
+                  data-netlify="true"
+                  onSubmit={form.handleSubmit(onSubmit)}
+                  className="space-y-6"
+                >
+                  {/* ✅ ADD this hidden input as the first child of the form */}
+                  <input type="hidden" name="form-name" value="contact" />
+
                   <FormField
                     control={form.control}
                     name="name"
@@ -102,7 +135,8 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel>Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Your Name" {...field} />
+                          {/* ✅ add name="name" */}
+                          <Input name="name" placeholder="Your Name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -116,7 +150,8 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="your@email.com" {...field} />
+                          {/* ✅ add name="email" */}
+                          <Input name="email" placeholder="your@email.com" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -130,7 +165,8 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel>Subject</FormLabel>
                         <FormControl>
-                          <Input placeholder="How can we help?" {...field} />
+                          {/* ✅ add name="subject" */}
+                          <Input name="subject" placeholder="How can we help?" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -144,7 +180,13 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel>Message</FormLabel>
                         <FormControl>
-                          <Textarea placeholder="Tell us more..." className="min-h-[120px]" {...field} />
+                          {/* ✅ add name="message" */}
+                          <Textarea
+                            name="message"
+                            placeholder="Tell us more..."
+                            className="min-h-[120px]"
+                            {...field}
+                          />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -152,7 +194,9 @@ export default function Contact() {
                   />
                   
                   <div className="pt-2">
-                    <label className="block mb-3 text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">I'm interested in (optional):</label>
+                    <label className="block mb-3 text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                      I'm interested in (optional):
+                    </label>
                     <div className="grid grid-cols-2 gap-3">
                       {['Volunteering', 'School Partnership', 'Sponsorship', 'Other'].map((item) => (
                         <div key={item} className="flex items-center space-x-2">
